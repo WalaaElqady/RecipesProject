@@ -1,0 +1,49 @@
+.testymonials{
+    background-image: url('../../assets/images/Mask\ Group2.png') ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #C98A40;
+    height: auto;
+}
+.testy{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+}
+.testy h1{
+    font-size: 100px;
+    font-weight: 900;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    color: #fff;
+}
+.title h4{
+    color: #C98A40;
+}
+@media (max-width:768px) {
+    .testy h1{
+        font-size: 55px;
+    }
+    .main-button{
+        margin-top: 50px;
+    }
+}
+@media (min-width:768px) and (max-width:992px) {
+    .testy h1{
+        font-size: 70px;
+    }
+    
+}
+.stars li{
+    list-style: none;
+    color: #C98A40;
+    margin: 8px;
+}
+.card{
+    border-radius: 30px;
+}
+.body{
+    padding: 20px 30px 0 30px;
+}

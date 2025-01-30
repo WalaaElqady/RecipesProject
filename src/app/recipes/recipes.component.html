@@ -1,0 +1,23 @@
+<div class="recipes container text-center">
+    <h1>Recipes</h1>
+    <div class="row container-row">
+        <div class="col-md-4 col-sm-12" *ngFor="let recipe of recipes">
+            <div class="card">
+                <div class="body">
+                    <img class="w-100 rounded-5" [src]="recipe.strMealThumb" alt={{recipe.strMeal}}>
+                    <div class="title">
+                        <h4>{{recipe.strMeal}}</h4>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <br>
+        </div>
+    </div>
+    <div *ngIf="apiError" class="error alert alert-danger">
+        <h4 class="text-center">{{apiError}}</h4>
+    </div>
+    <button class="main-button mb-5"><a href="">Contact us</a></button>
+</div>

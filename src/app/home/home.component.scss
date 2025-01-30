@@ -1,0 +1,222 @@
+.section2{
+    background-image: url('../../assets/images/Mask Group.png') ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.picture{
+    background-image: url('../../assets/images/Mask Group0.png') ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: white;
+}
+.main-text{
+    font-family: 'Poppins',sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 17px;
+    color: white;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+.one{
+    // background-color: teal;
+    width: 50%;
+    margin: auto;
+}
+.two{
+    // background-color: blueviolet;
+    padding: 55px;
+    width: 90%;
+    margin: auto;
+}
+ul{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-right: 5px;
+}
+ul li{
+    list-style: none;
+    color: #C98A40; 
+    padding: 5px;
+}
+.secondary-title{
+    font-family: 'Sen' , sans-serif;
+    color: white;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 33.69px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+.main-title2{
+    font-size: 80px;
+    font-weight: 800;
+    line-height: 138.24px;
+}
+.remove-br{
+    display: block;
+}
+@media (max-width: 567px) {
+    .remove-br{
+        display: none;
+    }
+    .home-picture{
+        display: none;
+    }
+    .one{
+        margin-bottom: 40px;
+        width: 100%;
+    }
+    .two{
+        width: 100%;
+        text-align: left;
+        padding: 0;
+        margin-bottom: 50px;
+    }
+    .three{
+        margin-top: 15px;
+    }
+    .main-title2{
+        font-size: 60px;
+        font-weight: 800;
+        line-height: 80px;
+    }
+    .main-text{
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 30px;
+    }
+}
+@media (min-width: 567px) and (max-width: 767px) {
+    .remove-br{
+        display: none;
+    }
+    .home-picture{
+        display: none;
+    }
+    .one{
+        margin-bottom: 40px;
+        width: 100%;
+    }
+    .two{
+        width: 100%;
+        text-align: left;
+        padding: 0;
+        margin-bottom: 50px;
+    }
+    .three{
+        margin-top: 15px;
+    }
+    .main-title2{
+        font-size: 60px;
+        font-weight: 800;
+        line-height: 80px;
+    }
+    .main-text{
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 30px;
+    }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+    .remove-br{
+        display: none;
+    }
+    .home-picture{
+        display: none;
+    }
+    .one{
+        margin-bottom: 40px;
+        width: 100%;
+    }
+    .two{
+        width: 100%;
+        text-align: left;
+        padding: 0;
+        margin-bottom: 50px;
+    }
+    .three{
+        margin-top: 15px;
+    }
+    .main-title2{
+        font-size: 60px;
+        font-weight: 800;
+        line-height: 80px;
+    }
+    .main-text{
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 30px;
+    }
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+    .remove-br{
+        display: none;
+    }
+    .home-picture{
+        display: none;
+    }
+    .one{
+        margin-bottom: 40px;
+        width: 100%;
+    }
+    .two{
+        width: 100%;
+        text-align: left;
+        padding: 0;
+        margin-bottom: 50px;
+    }
+    .three{
+        margin-top: 15px;
+    }
+    .main-title2{
+        font-size: 60px;
+        font-weight: 800;
+        line-height: 80px;
+    }
+    .main-text{
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 30px;
+    }
+
+}
+@media (min-width: 1200px) and (max-width: 1400px) {
+    .two{
+        margin-bottom: 23px;
+        padding: 25px 0px;
+    }
+    .main-title2{
+        font-weight: 800;
+        line-height: 90px;
+    }
+    .section2{
+        margin: 0;
+        padding: 0;
+    }
+    .home-picture{
+        top:30%;
+        left: 43%;
+    }
+    
+}
+@media (min-width: 1400px) and (max-width: 1600px) {
+    .one{
+        margin-bottom: 25px;
+    }
+    .main-title2{
+        font-size: 60px;
+        font-weight: 800;
+        line-height: 80px;
+    }
+}
+.home-picture{
+    position: absolute;
+    top:20%;
+    left: 50%;
+}

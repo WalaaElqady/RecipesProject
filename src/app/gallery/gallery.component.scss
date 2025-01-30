@@ -1,0 +1,66 @@
+.section1{
+    background-image: url("../../assets/images/Mask\ Group.png") ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.main-title2{
+    text-align: center;
+}
+.my-text{
+    display: none;
+}
+.gallery{
+    top:44%;
+}
+.image{
+    width: 80%;
+    margin: 0 20px;
+}
+.main-text{
+    position: absolute;
+    width: 50%;
+    top: 10%;
+    right: 20px;
+    color: #C98A40;
+    font-weight: 600;
+}
+@media (max-width: 567px) {
+    .gallery{
+        right: 0;
+    }
+}
+@media (max-width: 767.88px) {
+    .section1{
+        display: none;
+    }
+    .my-text {
+        color: #fff;
+        font-weight: 600;
+        display: block;
+        font-size: 18px;
+        width: 70%;
+        text-align: center;
+        margin: 50px auto;
+    }
+    .main-title2{
+        text-align: center;
+        line-height: 138.24px;
+        font-size: 100px;
+    }
+    .gallery{
+        display: none;
+    }
+}
+
+@media (max-width: 1020px) {
+    .main-text{
+        width: 80%;
+        right: 30px;
+    }
+    .content h3{
+        font-size: 80px;
+    }
+}
+
+
+

@@ -1,0 +1,110 @@
+/* You can add global styles to this file, and also import other style files */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    height: 100vh;
+}
+$main-color: #C98A40;
+$light-color: #FFFFFF;
+$button-color: #FDBA10;
+$input-color: #FFD39F;
+$footer-color: #584125;
+$main-font: 'Sen' , sans-serif;
+$secondary-font: 'Poppins',sans-serif;
+
+.text-main{
+    color: $main-color;
+}   
+.text-light{
+    color: $light-color;
+}
+.text-button{
+    color: $button-color;
+}
+.text-input{
+    color: $input-color;
+}
+.text-footer{
+    color: $footer-color;
+}
+.bg-main{
+    background-color: $main-color;
+}
+.bg-light{
+    background-color: $light-color;
+}
+.bg-button{
+    background-color: $button-color;
+}
+.bg-input{
+    background-color: $input-color;
+}
+.bg-footer{
+    background-color: $footer-color;
+}
+.main-title{
+    font-family: $main-font;
+    font-size: 144px;
+    font-weight: 800;
+    color: $light-color;
+    line-height: 138.24px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+.main-title2{
+    font-family: $main-font;
+    font-size: 120px;
+    font-weight: 800;
+    color: $light-color;
+    line-height: 138.24px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+.secondary-title{
+    font-family: $main-font;
+    color: $light-color;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 33.69px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+.main-text{
+    font-family: $secondary-font;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 26px;
+    color: $light-color;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+.main-button{
+    margin-top: 30px;
+    background-color: $button-color;
+    width: 190px;
+    height: 60px;
+    border: none;
+    border-radius: 30px;
+    transition: 0.3s;
+}
+
+.main-button a{
+    font-family: $secondary-font;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 24px;
+    color: $light-color;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.main{
+    height: 100vh;
+}

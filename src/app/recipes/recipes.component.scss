@@ -1,0 +1,43 @@
+.recipes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.recipes h1 {
+    font-size: 100px;
+    font-weight: 900;
+    letter-spacing: 3px;
+    color: #C98A40;
+    margin-bottom: 20px;
+    text-transform: uppercase; 
+}
+.card{
+    box-shadow: 0 0 5px 0px #C98A40;
+    border: none;
+    border-radius: 30px;
+}
+.container-row{
+    width: 90%;
+}
+.body .title{
+    padding: 20px;
+    text-align: start;
+}
+.body .title h4{
+    color: #C98A40;
+    margin-bottom: 20px;
+}
+@media (max-width: 992px) {
+    .body .title h4{
+        font-size: 15px;
+    }
+}
+.body .title p{
+    color: #6b4b25;
+}
+@media (max-width: 992px) {
+    .body .title p{
+        font-size: 10px;
+    }
+}
